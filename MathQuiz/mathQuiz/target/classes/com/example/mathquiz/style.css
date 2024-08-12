@@ -1,0 +1,22 @@
+.body-container {
+    -fx-background-color: #20a2f8;
+    -fx-text-fill: #fff;
+}
+
+.btn {
+    -fx-border: none;
+    -fx-background-radius: 8px;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.2em;
+     -fx-transition: -fx-background-color 3s ease;
+}
+
+.btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #377afc;
+    -fx-text-fill: #fff;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-transition: -fx-background-color 3s ease;
+}
